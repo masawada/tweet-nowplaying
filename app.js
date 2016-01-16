@@ -23,12 +23,6 @@ iTunes.currentTrack((track) => {
 
   // tweet
   client.post('statuses/update', { status }, (error, tweet, response) => {
-    if (error) {
-      console.log(error);
-    } else {
-      console.log(tweet);
-    }
-
     // playback module receives track change events.
     // This feature prevents this app from halt.
     // we must kill this app clearly.
