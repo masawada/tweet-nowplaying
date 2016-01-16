@@ -1,0 +1,18 @@
+{
+  "name": "tweet-nowplaying",
+  "version": "1.0.0",
+  "description": "Tweet song title playing in iTunes",
+  "bin": {
+    "tweet-nowplaying": "app.js"
+  },
+  "keywords": [
+    "iTunes"
+  ],
+  "preferGlobal": true,
+  "author": "Masayoshi Wada",
+  "license": "MIT",
+  "dependencies": {
+    "playback": "^0.2.0",
+    "twitter": "^1.2.5"
+  }
+}
