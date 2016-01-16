@@ -1,6 +1,6 @@
 {
   "name": "tweet-nowplaying",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tweet song title playing in iTunes",
   "bin": {
     "tweet-nowplaying": "app.js"
@@ -12,7 +12,7 @@
   "author": "Masayoshi Wada",
   "license": "MIT",
   "dependencies": {
-    "playback": "^0.2.0",
+    "playback": "git://github.com/pastak/playback.git#2dab3d0",
     "twitter": "^1.2.5"
   }
 }
